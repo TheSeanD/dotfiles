@@ -1,4 +1,4 @@
 # dotfiles
 *A place for scripts and such*
-### formatDocker.sh
-* Formats docker output to pretty format
+### formatDockerPs.sh
+* Formats docker process status output to pretty format in bash
