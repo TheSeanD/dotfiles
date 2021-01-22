@@ -4,13 +4,20 @@
 # Aliases that I use commonly use
 ##############################################
 
+### Lay the workspace if non existent
+if [[ -d ~/workspace ]]; then
+    echo "workspace exists - aliases applied..."
+else
+    echo "workspace created - aliases applied..."
+    mkdir -p ~/workspace
+fi
+
 ### Navigation
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias go="cd ~/workspace"
-
 
 ### Check to see if on Mac or *nix and set colorflag variable
 if [[ "$(uname)" == "Darwin" ]]; then
@@ -68,8 +75,10 @@ alias di="docker images"
 alias cfp="cf push"
 alias cfl="cf login"
 
+### Concourse 
+alias f="fly -t"
 
-### Ansible aliases
+### Ansible 
 # alias apl="ansible-playbook"
 # alias agl="ansible-galaxy"
 
