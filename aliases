@@ -59,6 +59,9 @@ alias kx=kubectx
 alias kn=kubens
 alias kg="kubectl get"
 
+### Minikube Aliases
+alias m=minikube
+
 ### Git
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gp="git push"
