@@ -5,3 +5,6 @@
 
 ### aliases
 * Aliases that I commonly use 
+
+### gitColorLinux
+* Pretty up the terminal for Git branches
